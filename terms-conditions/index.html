@@ -1,114 +1,243 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms of Use</title>
-</head>
-<body>
-    <h1>Terms of Use</h1>
-    <p>Last updated: May 18, 2025</p>
-    <p>These Terms of Use ("Terms") govern your use of the Discmate mobile application ("App") and services provided by Avelon Labs SIA, registered under company number 40203711166, with its address at Cēsu nov., Priekuļu pag., Priekuļi, Izmēģinātāju iela 8 - 8 ("Provider", "we", "our").</p>
-    <p>By accessing or using the App, you agree to these Terms. If you do not agree, please do not use the App.</p>
-    
-    <h2>1. Definitions</h2>
-    <p><strong>App</strong> – The Discmate mobile application.</p>
-    <p><strong>User</strong> – A person using the App.</p>
-    <p><strong>Content</strong> – Photos, disc data, profile pictures, or other media uploaded by Users.</p>
-    <p><strong>Services</strong> – All functionality offered via the App.</p>
-    <p><strong>Premium Features</strong> – Optional in-app purchases for added functionality.</p>
-    <p><strong>Provider</strong> – Avelon Labs SIA, the legal operator of the App.</p>
-    
-    <h2>2. Eligibility</h2>
-    <p>To use Discmate, you must:</p>
-    <ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terms of Use – DiscMate</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: #0b1020;
+        color: #f5f5f7;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+      }
+
+      .card {
+        width: 100%;
+        max-width: 880px;
+        background: radial-gradient(circle at top left, #1e2a4a, #050814);
+        border-radius: 18px;
+        padding: 28px 26px 24px;
+        box-shadow:
+          0 18px 45px rgba(0, 0, 0, 0.65),
+          0 0 0 1px rgba(255, 255, 255, 0.02);
+        border: 1px solid rgba(255, 255, 255, 0.06);
+        max-height: 100vh;
+        overflow: auto;
+      }
+
+      header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 12px;
+        margin-bottom: 22px;
+      }
+
+      .title {
+        font-size: 1.5rem;
+        font-weight: 650;
+        letter-spacing: 0.03em;
+      }
+
+      .subtitle {
+        font-size: 0.9rem;
+        opacity: 0.82;
+      }
+
+      .badge {
+        padding: 4px 10px;
+        border-radius: 999px;
+        border: 1px solid rgba(159, 213, 255, 0.6);
+        font-size: 0.72rem;
+        color: #9fd5ff;
+        background: rgba(4, 132, 252, 0.18);
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+      }
+
+      h1 {
+        font-size: 1.4rem;
+        margin-bottom: 4px;
+      }
+
+      h2 {
+        font-size: 1.1rem;
+        margin: 18px 0 6px;
+      }
+
+      h3 {
+        font-size: 1rem;
+        margin: 14px 0 4px;
+      }
+
+      p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        opacity: 0.9;
+        margin-bottom: 6px;
+      }
+
+      ul {
+        margin: 4px 0 10px 20px;
+        font-size: 0.95rem;
+        line-height: 1.6;
+        opacity: 0.9;
+      }
+
+      a {
+        color: #9fd5ff;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .meta {
+        margin-top: 8px;
+        font-size: 0.8rem;
+        opacity: 0.8;
+      }
+
+      @media (max-width: 520px) {
+        .card {
+          padding: 22px 18px 18px;
+        }
+
+        .title {
+          font-size: 1.25rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <header>
+        <div>
+          <div class="title">Terms of Use</div>
+          <div class="subtitle">Legal terms for using the DiscMate app.</div>
+        </div>
+        <div class="badge">Legal</div>
+      </header>
+
+      <h1>Terms of Use</h1>
+      <p>Last updated: May 18, 2025</p>
+      <p>These Terms of Use ("Terms") govern your use of the Discmate mobile application ("App") and services provided by Avelon Labs SIA, registered under company number 40203711166, with its address at Cēsu nov., Priekuļu pag., Priekuļi, Izmēģinātāju iela 8 - 8 ("Provider", "we", "our").</p>
+      <p>By accessing or using the App, you agree to these Terms. If you do not agree, please do not use the App.</p>
+
+      <h2>1. Definitions</h2>
+      <p><strong>App</strong> – The Discmate mobile application.</p>
+      <p><strong>User</strong> – A person using the App.</p>
+      <p><strong>Content</strong> – Photos, disc data, profile pictures, or other media uploaded by Users.</p>
+      <p><strong>Services</strong> – All functionality offered via the App.</p>
+      <p><strong>Premium Features</strong> – Optional in-app purchases for added functionality.</p>
+      <p><strong>Provider</strong> – Avelon Labs SIA, the legal operator of the App.</p>
+
+      <h2>2. Eligibility</h2>
+      <p>To use Discmate, you must:</p>
+      <ul>
         <li>Be at least 13 years old (or older, if required by your country).</li>
         <li>Have legal capacity to accept these Terms.</li>
         <li>Register using a valid Apple, Google, or email account.</li>
-    </ul>
-    
-    <h2>3. User Accounts</h2>
-    <p>You are responsible for keeping your login credentials secure.</p>
-    <p>You may delete your account at any time.</p>
-    <p>You may not impersonate others or create fake accounts.</p>
-    
-    <h2>4. User Content and Conduct</h2>
-    <h3>4.1 Acceptable Content</h3>
-    <p>By uploading content (e.g., disc photos, profile pictures), you agree that:</p>
-    <ul>
+      </ul>
+
+      <h2>3. User Accounts</h2>
+      <p>You are responsible for keeping your login credentials secure.</p>
+      <p>You may delete your account at any time.</p>
+      <p>You may not impersonate others or create fake accounts.</p>
+
+      <h2>4. User Content and Conduct</h2>
+      <h3>4.1 Acceptable Content</h3>
+      <p>By uploading content (e.g., disc photos, profile pictures), you agree that:</p>
+      <ul>
         <li>You own or have rights to share it.</li>
         <li>It is accurate, legal, and appropriate.</li>
         <li>It does not contain nudity, hate speech, violence, threats, or illegal content.</li>
-    </ul>
-    
-    <h3>4.2 Prohibited Content</h3>
-    <p>You must not upload:</p>
-    <ul>
+      </ul>
+
+      <h3>4.2 Prohibited Content</h3>
+      <p>You must not upload:</p>
+      <ul>
         <li>Sexually explicit or pornographic images.</li>
         <li>Images involving minors in inappropriate contexts.</li>
         <li>Violence, gore, or abusive content.</li>
         <li>Illegal activity, drugs, or weapons.</li>
-    </ul>
-    <p>We may remove or report content that violates these rules, and ban offending users without notice.</p>
-    
-    <h3>4.3 Image Moderation</h3>
-    <p>We use automated and/or manual moderation to detect inappropriate content. This may include third-party moderation tools or community flagging.</p>
-    
-    <h2>5. Sharing & Visibility</h2>
-    <p>Disc and profile data (including pictures and stats) may be shared with other Users.</p>
-    <p>You control your profile visibility via in-app settings.</p>
-    <p>Users are responsible for what they share.</p>
-    
-    <h2>6. Intellectual Property</h2>
-    <p>The App and its content (UI, design, branding, code) belong to the Provider.</p>
-    <p>You may not copy, modify, or reverse-engineer any part of the App.</p>
-    <p>Uploaded content remains your property, but you grant us a license to host and display it for app functionality.</p>
-    
-    <h2>7. Premium Features & Payments</h2>
-    <p>Premium subscriptions cost $0.99 per month or $9.99 per year.</p>
-    <p>Subscriptions auto-renew unless canceled.</p>
-    <p>Payments are handled by Apple/Google. No refunds are provided unless required by law.</p>
-    <p>You can manage or cancel subscriptions through your Apple ID or Google Play account.</p>
-    
-    <h2>8. Privacy & Personal Data</h2>
-    <p>We process your personal data (name, email, images) as outlined in our <a href="#">Privacy Policy</a>.</p>
-    <p>Data may be stored and shared as required for app functionality.</p>
-    <p>You can request deletion of your data at any time.</p>
-    <p>Content and data are stored securely, and we take reasonable steps to prevent unauthorized access.</p>
-    
-    <h2>9. User Support</h2>
-    <p>You can contact support at: <a href="mailto:contact@discmate.app">contact@discmate.app</a></p>
-    <p>We aim to respond within a reasonable timeframe but do not guarantee support availability.</p>
-    
-    <h2>10. Service Availability & Maintenance</h2>
-    <p>We may modify or temporarily disable the App for maintenance or updates.</p>
-    <p>We strive to resolve service disruptions within 72 hours.</p>
-    
-    <h2>11. Termination</h2>
-    <p>You may delete your account at any time.</p>
-    <p>We may suspend or terminate your access if you violate these Terms or applicable laws.</p>
-    
-    <h2>12. iOS and Google Play Users</h2>
-    <p>Apple/Google are not parties to these Terms.</p>
-    <p>Subscriptions are managed via your Apple ID or Google Play account.</p>
-    <p>All claims regarding the App must be directed to the Provider, not Apple or Google.</p>
-    
-    <h2>13. Disclaimer & Liability</h2>
-    <p>The App is provided "as is". We make no guarantees of availability, accuracy, or fitness for purpose.</p>
-    <p>We are not liable for indirect damages, lost data, or losses due to content uploaded by Users.</p>
-    
-    <h2>14. Governing Law</h2>
-    <p>These Terms are governed by the laws of Latvia, unless otherwise required by consumer protection laws in your country. Disputes will be subject to the courts of Latvia.</p>
-    
-    <h2>15. Force Majeure</h2>
-    <p>We are not liable for failures due to events beyond our control, including war, strikes, natural disasters, or government restrictions.</p>
-    
-    <h2>16. Changes to Terms</h2>
-    <p>We may update these Terms from time to time. Continued use of the App after changes constitutes acceptance of the updated Terms.</p>
-    
-    <h2>17. Contact</h2>
-    <p>If you have questions or complaints, contact us at:</p>
-    <p>📧 <a href="mailto:contact@discmate.app">contact@discmate.app</a></p>
-</body>
+      </ul>
+      <p>We may remove or report content that violates these rules, and ban offending users without notice.</p>
+
+      <h3>4.3 Image Moderation</h3>
+      <p>We use automated and/or manual moderation to detect inappropriate content. This may include third-party moderation tools or community flagging.</p>
+
+      <h2>5. Sharing &amp; Visibility</h2>
+      <p>Disc and profile data (including pictures and stats) may be shared with other Users.</p>
+      <p>You control your profile visibility via in-app settings.</p>
+      <p>Users are responsible for what they share.</p>
+
+      <h2>6. Intellectual Property</h2>
+      <p>The App and its content (UI, design, branding, code) belong to the Provider.</p>
+      <p>You may not copy, modify, or reverse-engineer any part of the App.</p>
+      <p>Uploaded content remains your property, but you grant us a license to host and display it for app functionality.</p>
+
+      <h2>7. Premium Features &amp; Payments</h2>
+      <p>Premium subscriptions cost $0.99 per month or $9.99 per year.</p>
+      <p>Subscriptions auto-renew unless canceled.</p>
+      <p>Payments are handled by Apple/Google. No refunds are provided unless required by law.</p>
+      <p>You can manage or cancel subscriptions through your Apple ID or Google Play account.</p>
+
+      <h2>8. Privacy &amp; Personal Data</h2>
+      <p>We process your personal data (name, email, images) as outlined in our <a href="/privacy-policy/">Privacy Policy</a>.</p>
+      <p>Data may be stored and shared as required for app functionality.</p>
+      <p>You can request deletion of your data at any time.</p>
+      <p>Content and data are stored securely, and we take reasonable steps to prevent unauthorized access.</p>
+
+      <h2>9. User Support</h2>
+      <p>You can contact support at: <a href="mailto:contact@discmate.app">contact@discmate.app</a></p>
+      <p>We aim to respond within a reasonable timeframe but do not guarantee support availability.</p>
+
+      <h2>10. Service Availability &amp; Maintenance</h2>
+      <p>We may modify or temporarily disable the App for maintenance or updates.</p>
+      <p>We strive to resolve service disruptions within 72 hours.</p>
+
+      <h2>11. Termination</h2>
+      <p>You may delete your account at any time.</p>
+      <p>We may suspend or terminate your access if you violate these Terms or applicable laws.</p>
+
+      <h2>12. iOS and Google Play Users</h2>
+      <p>Apple/Google are not parties to these Terms.</p>
+      <p>Subscriptions are managed via your Apple ID or Google Play account.</p>
+      <p>All claims regarding the App must be directed to the Provider, not Apple or Google.</p>
+
+      <h2>13. Disclaimer &amp; Liability</h2>
+      <p>The App is provided "as is". We make no guarantees of availability, accuracy, or fitness for purpose.</p>
+      <p>We are not liable for indirect damages, lost data, or losses due to content uploaded by Users.</p>
+
+      <h2>14. Governing Law</h2>
+      <p>These Terms are governed by the laws of Latvia, unless otherwise required by consumer protection laws in your country. Disputes will be subject to the courts of Latvia.</p>
+
+      <h2>15. Force Majeure</h2>
+      <p>We are not liable for failures due to events beyond our control, including war, strikes, natural disasters, or government restrictions.</p>
+
+      <h2>16. Changes to Terms</h2>
+      <p>We may update these Terms from time to time. Continued use of the App after changes constitutes acceptance of the updated Terms.</p>
+
+      <h2>17. Contact</h2>
+      <p>If you have questions or complaints, contact us at:</p>
+      <p>📧 <a href="mailto:contact@discmate.app">contact@discmate.app</a></p>
+
+      <div class="meta">Company: Avelon Labs SIA</div>
+    </main>
+  </body>
 </html>
